@@ -1,4 +1,4 @@
-// var arr = [1, 2, 3, 4, 5];
+var arr = [1, 2, 3, 4, 5];
 
 // for (let i = 0; i < arr.length; i++) {
 //   setTimeout(() => console.log(arr[i], i), i * 1000);
@@ -13,7 +13,7 @@
 // }
 
 var str = "key,value,pair,javascript";
-var arr = str.split(",");
+// var arr = str.split(",");
 var obj = {};
 
 // obj[arr[arr.length-1]]={};
@@ -23,13 +23,13 @@ var obj = {};
 // }
 // console.log(obj)
 
-// function rec(arr, i = 0, obj = {}) {
-//   if (i === arr.length) {
-//     return obj;
-//   } else {
-//     return { [arr[i]]: rec(arr, i + 1) };
-//   }
-// }
+function rec(arr, i = 0, obj = {}) {
+  if (i === arr.length) {
+    return obj;
+  } else {
+    return { [arr[i]]: rec(arr, i + 1) };
+  }
+}
 
-var rec=(arr,i=0,obj={})=> i==arr.length?obj:{[arr[i]]:rec(arr,i+1)} 
+// var rec=(arr,i=0,obj={})=> i==arr.length?obj:{[arr[i]]:rec(arr,i+1)} 
 console.log(rec(arr));

@@ -22,9 +22,9 @@ function getInfo(member, year) {
   const person = { name: 'Sarah' };
   const birthYear = '1997';
   
-  getInfo(person, birthYear);
+  // getInfo(person, birthYear);
   
-  console.log(person, birthYear);
+  // console.log(person, birthYear);
   
 const num = parseInt("796,4534", 10);
-console.log("num:", num);
+// console.log("num:", num);

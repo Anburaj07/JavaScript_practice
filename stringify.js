@@ -9,8 +9,8 @@ const data = JSON.stringify(settings, ['level', 'health']);
 
 const value = { number: 10 };
 
-const multiply = (x = { ...value }) => { // 20 20 20 40
-    // const multiply = (x = value) => { // 20 40 80 160
+// const multiply = (x = { ...value }) => { // 20 20 20 40
+    const multiply = (x = value) => { // 20 40 80 160
   console.log((x.number *= 2));
 };
 
