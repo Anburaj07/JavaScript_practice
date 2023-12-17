@@ -11,7 +11,18 @@ function sayHi(name='Raja') {
     name: 'Lydia',
     age: 21,
   };
-// console.log(Object.entries(person))  
+console.log(Object.entries(person))  
 for (const [x, y] of Object.entries(person)) {
   console.log(x, y);
 }
+
+let obj={
+  a:'a',
+  b:'b',
+  c:'c'
+}
+
+for(key in obj){
+  obj[key]=obj[key].toUpperCase()
+}
+console.log(obj)
