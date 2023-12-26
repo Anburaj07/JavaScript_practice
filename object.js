@@ -16,19 +16,19 @@ function sayHi(name='Raja') {
 //   console.log(x, y);
 // }
 
-// let obj={
-//   name:'a',
-//   age:251,
-//  address:{
-//   doorno:3,
-//   city:"mdu"
-//  }
-// }
-// let st=[]
-// for(key in obj){
-//   st.push(key)
-// }
-// console.log(st)
+let obj={
+  name:'a',
+  age:251,
+ address:{
+  doorno:3,
+  city:"mdu"
+ }
+}
+let st=[]
+for(key in obj){
+  st.push(key)
+}
+console.log(st)
 
 const person = {
   name: "blessmi",
