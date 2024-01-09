@@ -6,8 +6,8 @@ const shape = {
     perimeter: () => 2 * Math.PI * this.radius,
     };
     
-    // console.log(shape.diameter());
-    // console.log(shape.perimeter());
+    console.log(shape.diameter());
+    console.log(shape.perimeter());
 
     class Chameleon {
         static colorChange(newColor) {
@@ -22,5 +22,23 @@ const shape = {
         
         const freddie = new Chameleon({ newColor: 'purple' })
         console.log('freddie:', freddie.newColor)
-        // console.log(freddie.colorChange('orange'));
+        console.log(freddie.colorChange('orange'));
         console.log(Chameleon.colorChange('orange'));
+
+        console.log(`${(x => x)('I love')} to program`);
+
+let c = { greeting: 'Hey!' };
+let d;
+
+d = c;
+c.greeting = 'Hello';
+console.log(d.greeting);
+
+
+function bark() {
+console.log('Woof!');
+}
+
+bark.animal = 'dog';
+bark()
+console.log(bark)
