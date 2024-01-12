@@ -9,9 +9,9 @@ function getPersonInfo(one, two, three) {
   
   getPersonInfo`${person} is ${age} years old`;
 
-  // function getAge(...args) {
-  //   console.log(typeof args);
-  // }
+  function getAge(...args) {
+    console.log(typeof args);
+  }
   
-  // getAge(21);
+  getAge(21);
 
