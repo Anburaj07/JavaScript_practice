@@ -1,7 +1,5 @@
 for(var i=0; i<5; i++) {
 }
-console.log(i);
-
 let arr=[3,5,1,2,3,4,5];
 
 // let max=-Infinity;
